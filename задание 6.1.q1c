@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<querylist>
+	<query name="Предметы">
+		<text>ВЫБРАТЬ
+	Предметы.Ссылка КАК Ссылка,
+	Предметы.Кабинет КАК НомерКабинета
+ИЗ
+	Справочник.Предметы КАК Предметы
+
+УПОРЯДОЧИТЬ ПО
+	НомерКабинета
+АВТОУПОРЯДОЧИВАНИЕ
+</text>
+		<textSQL>
+
+		</textSQL>
+		<planSQL>
+
+		</planSQL>
+		<typeSQL>
+
+		</typeSQL>
+	</query>
+</querylist>
